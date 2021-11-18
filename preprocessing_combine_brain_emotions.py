@@ -88,7 +88,41 @@ def combine_brain_emotions(movies, output_path):
 def main():
 
     ########################################
-    # TODO: make this for all movies
+    # AFTER THE RAIN
+    ########################################
+
+    # enter all movies in the form results/(movie_name)_averaged.csv
+    # List has to be in right order:
+    # movie_1_person_1, movie_1_person_2, movie_1_person_4, movie_1_person_4
+    movies_AfterTheRain = []
+
+    # enter the name of the preprocessed emotion file corresponding to the movie
+    emotion_AfterTheRain = "datas/Emotions_AfterTheRain.csv"
+
+    # enter the output path
+    output_path_AfterTheRain = "results/Combined_AfterTheRain.csv"
+
+    combine_brain_emotions_per_movie(movies_AfterTheRain, emotion_AfterTheRain, output_path_AfterTheRain)
+
+    ########################################
+    # BETWEEN VIEWINGS
+    ########################################
+
+    # enter all movies in the form results/(movie_name)_averaged.csv
+    # List has to be in right order:
+    # movie_1_person_1, movie_1_person_2, movie_1_person_4, movie_1_person_4
+    movies_BetweenViewings = []
+
+    # enter the name of the preprocessed emotion file corresponding to the movie
+    emotion_BetweenViewings = "datas/Emotions_BetweenViewings.csv"
+
+    # enter the output path
+    output_path_BetweenViewings = "results/Combined_BetweenViewings.csv"
+
+    combine_brain_emotions_per_movie(movies_BetweenViewings, emotion_BetweenViewings, output_path_BetweenViewings)
+
+    ########################################
+    # BICK BUCK BUNNY
     ########################################
 
     # enter all movies in the form results/(movie_name)_averaged.csv
@@ -108,10 +142,213 @@ def main():
     combine_brain_emotions_per_movie(movies_BickBuckBunny, emotion_BickBuckBunny, output_path_BickBuckBunny)
 
     ########################################
+    # CHATTER
+    ########################################
+
+    # enter all movies in the form results/(movie_name)_averaged.csv
+    # List has to be in right order:
+    # movie_1_person_1, movie_1_person_2, movie_1_person_4, movie_1_person_4
+    movies_Chatter = []
+
+    # enter the name of the preprocessed emotion file corresponding to the movie
+    emotion_Chatter = "datas/Emotions_Chatter.csv"
+
+    # enter the output path
+    output_path_Chatter = "results/Combined_Chatter.csv"
+
+    combine_brain_emotions_per_movie(movies_Chatter, emotion_Chatter, output_path_Chatter)
+
+    ########################################
+    # FIRST BITE
+    ########################################
+
+    # enter all movies in the form results/(movie_name)_averaged.csv
+    # List has to be in right order:
+    # movie_1_person_1, movie_1_person_2, movie_1_person_4, movie_1_person_4
+    movies_FirstBite = []
+
+    # enter the name of the preprocessed emotion file corresponding to the movie
+    emotion_FirstBite = "datas/Emotions_FirstBite.csv"
+
+    # enter the output path
+    output_path_FirstBite = "results/Combined_FirstBite.csv"
+
+    combine_brain_emotions_per_movie(movies_FirstBite, emotion_FirstBite, output_path_FirstBite)
+
+    ########################################
+    # LESSONS LEARNED
+    ########################################
+
+    # enter all movies in the form results/(movie_name)_averaged.csv
+    # List has to be in right order:
+    # movie_1_person_1, movie_1_person_2, movie_1_person_4, movie_1_person_4
+    movies_LessonLearned = []
+
+    # enter the name of the preprocessed emotion file corresponding to the movie
+    emotion_LessonLearned = "datas/Emotions_LessonLearned.csv"
+
+    # enter the output path
+    output_path_LessonLearned = "results/Combined_LessonLearned.csv"
+
+    combine_brain_emotions_per_movie(movies_LessonLearned, emotion_LessonLearned, output_path_LessonLearned)
+
+    ########################################
+    # PAYLOAD
+    ########################################
+
+    # enter all movies in the form results/(movie_name)_averaged.csv
+    # List has to be in right order:
+    # movie_1_person_1, movie_1_person_2, movie_1_person_4, movie_1_person_4
+    movies_Payload = []
+
+    # enter the name of the preprocessed emotion file corresponding to the movie
+    emotion_Payload = "datas/Emotions_Payload.csv"
+
+    # enter the output path
+    output_path_Payload = "results/Combined_Payload.csv"
+
+    combine_brain_emotions_per_movie(movies_Payload, emotion_Payload, output_path_Payload)
+
+
+    ########################################
+    # SINTEL
+    ########################################
+
+    # enter all movies in the form results/(movie_name)_averaged.csv
+    # List has to be in right order:
+    # movie_1_person_1, movie_1_person_2, movie_1_person_4, movie_1_person_4
+    movies_Sintel = []
+
+    # enter the name of the preprocessed emotion file corresponding to the movie
+    emotion_Sintel = "datas/Emotions_Sintel.csv"
+
+    # enter the output path
+    output_path_Sintel = "results/Combined_Sintel.csv"
+
+    combine_brain_emotions_per_movie(movies_Sintel, emotion_Sintel, output_path_Sintel)
+
+    ########################################
+    # SPACEMAN
+    ########################################
+
+    # enter all movies in the form results/(movie_name)_averaged.csv
+    # List has to be in right order:
+    # movie_1_person_1, movie_1_person_2, movie_1_person_4, movie_1_person_4
+    movies_Spaceman = []
+
+    # enter the name of the preprocessed emotion file corresponding to the movie
+    emotion_Spaceman = "datas/Emotions_Spaceman.csv"
+
+    # enter the output path
+    output_path_Spaceman = "results/Combined_Spaceman.csv"
+
+    combine_brain_emotions_per_movie(movies_Spaceman, emotion_Spaceman, output_path_Spaceman)
+
+    ########################################
+    # SUPERHERO
+    ########################################
+
+    # enter all movies in the form results/(movie_name)_averaged.csv
+    # List has to be in right order:
+    # movie_1_person_1, movie_1_person_2, movie_1_person_4, movie_1_person_4
+    movies_Superhero = []
+
+    # enter the name of the preprocessed emotion file corresponding to the movie
+    emotion_Superhero = "datas/Emotions_Superhero.csv"
+
+    # enter the output path
+    output_path_Superhero = "results/Combined_Superhero.csv"
+
+    combine_brain_emotions_per_movie(movies_Superhero, emotion_Superhero, output_path_Superhero)
+
+    ########################################
+    # TEARS OF STEEL
+    ########################################
+
+    # enter all movies in the form results/(movie_name)_averaged.csv
+    # List has to be in right order:
+    # movie_1_person_1, movie_1_person_2, movie_1_person_4, movie_1_person_4
+    movies_TearsOfSteel = []
+
+    # enter the name of the preprocessed emotion file corresponding to the movie
+    emotion_TearsOfSteel = "datas/Emotions_TearsOfSteel.csv"
+
+    # enter the output path
+    output_path_TearsOfSteel = "results/Combined_TearsOfSteel.csv"
+
+    combine_brain_emotions_per_movie(movies_TearsOfSteel, emotion_TearsOfSteel, output_path_TearsOfSteel)
+
+    
+    ########################################
+    # THE SECRET NUMBER
+    ########################################
+
+    # enter all movies in the form results/(movie_name)_averaged.csv
+    # List has to be in right order:
+    # movie_1_person_1, movie_1_person_2, movie_1_person_4, movie_1_person_4
+    movies_TheSecretNumber = []
+
+    # enter the name of the preprocessed emotion file corresponding to the movie
+    emotion_TheSecretNumber = "datas/Emotions_TheSecretNumber.csv"
+
+    # enter the output path
+    output_path_TheSecretNumber = "results/Combined_TheSecretNumber.csv"
+
+    combine_brain_emotions_per_movie(movies_TheSecretNumber, emotion_TheSecretNumber, output_path_TheSecretNumber)
+
+    ########################################
+    # TO CLAIRE FROM SUNNY
+    ########################################
+
+    # enter all movies in the form results/(movie_name)_averaged.csv
+    # List has to be in right order:
+    # movie_1_person_1, movie_1_person_2, movie_1_person_4, movie_1_person_4
+    movies_ToClaireFromSunny = []
+
+    # enter the name of the preprocessed emotion file corresponding to the movie
+    emotion_ToClaireFromSunny = "datas/Emotions_ToClaireFromSunny.csv"
+
+    # enter the output path
+    output_path_ToClaireFromSunny = "results/Combined_ToClaireFromSunny.csv"
+
+    combine_brain_emotions_per_movie(movies_ToClaireFromSunny, emotion_ToClaireFromSunny, output_path_ToClaireFromSunny)
+
+    ########################################
+    # YOU AGAIN
+    ########################################
+
+    # enter all movies in the form results/(movie_name)_averaged.csv
+    # List has to be in right order:
+    # movie_1_person_1, movie_1_person_2, movie_1_person_4, movie_1_person_4
+    movies_YouAgain = []
+
+    # enter the name of the preprocessed emotion file corresponding to the movie
+    emotion_YouAgain = "datas/Emotions_YouAgain.csv"
+
+    # enter the output path
+    output_path_YouAgain = "results/Combined_YouAgain.csv"
+
+    combine_brain_emotions_per_movie(movies_YouAgain, emotion_YouAgain, output_path_YouAgain)
+
+
+    ########################################
     # TODO: put all output paths names in the list
     ########################################
 
-    all_movies = [output_path_BickBuckBunny]
+    all_movies = [output_path_AfterTheRain,
+                output_path_BetweenViewings,
+                output_path_BickBuckBunny,
+                output_path_Chatter,
+                output_path_FirstBite,
+                output_path_LessonLearned,
+                output_path_Payload,
+                output_path_Sintel,
+                output_path_Spaceman,
+                output_path_Superhero,
+                output_path_TearsOfSteel,
+                output_path_TheSecretNumber,
+                output_path_ToClaireFromSunny,
+                output_path_YouAgain]
 
     final_output = "results/Combined_All.csv"
 

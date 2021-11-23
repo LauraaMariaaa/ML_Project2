@@ -26,9 +26,9 @@ def combine_brain_emotions_per_movie(movies, emotion, output_path):
         # load movie data
         movie_data = np.genfromtxt(movie, delimiter=",")
         N = movie_data.shape[0] # number of samples
-        D = movie_data.shape[1] # number of features, i.e. brain regions, should be 400
+        #D = movie_data.shape[1] # number of features, i.e. brain regions, should be 400
         if N != l: 
-            print ("Length of movie "+ movie + " = " + N + " doesn't match with length of preprocessed emotion") 
+            print ("Length of movie "+ str(movie) + " = " + str(N) + " doesn't match with length of preprocessed emotion") 
             break
         # no output data yet (1st iteration)
         if count == 0:
@@ -94,7 +94,11 @@ def main():
     # enter all movies in the form results/(movie_name)_averaged.csv
     # List has to be in right order:
     # movie_1_person_1, movie_1_person_2, movie_1_person_4, movie_1_person_4
+
     movies_AfterTheRain = []
+    for num in range(1,19):
+
+        movies_AfterTheRain.append("brain/AfterTheRain_TC_400_average_" + str(num) +".csv")
 
     # enter the name of the preprocessed emotion file corresponding to the movie
     emotion_AfterTheRain = "datas/Emotions_AfterTheRain.csv"
@@ -103,6 +107,7 @@ def main():
     output_path_AfterTheRain = "results/Combined_AfterTheRain.csv"
 
     combine_brain_emotions_per_movie(movies_AfterTheRain, emotion_AfterTheRain, output_path_AfterTheRain)
+    print("After the rain done")
 
     ########################################
     # BETWEEN VIEWINGS
@@ -112,6 +117,9 @@ def main():
     # List has to be in right order:
     # movie_1_person_1, movie_1_person_2, movie_1_person_4, movie_1_person_4
     movies_BetweenViewings = []
+    for num in range(1,20):
+
+        movies_BetweenViewings.append("brain/BetweenViewings_TC_400_average_" + str(num) +".csv")
 
     # enter the name of the preprocessed emotion file corresponding to the movie
     emotion_BetweenViewings = "datas/Emotions_BetweenViewings.csv"
@@ -120,6 +128,7 @@ def main():
     output_path_BetweenViewings = "results/Combined_BetweenViewings.csv"
 
     combine_brain_emotions_per_movie(movies_BetweenViewings, emotion_BetweenViewings, output_path_BetweenViewings)
+    print("Between Viewings done")
 
     ########################################
     # BICK BUCK BUNNY
@@ -128,10 +137,11 @@ def main():
     # enter all movies in the form results/(movie_name)_averaged.csv
     # List has to be in right order:
     # movie_1_person_1, movie_1_person_2, movie_1_person_4, movie_1_person_4
-    movies_BickBuckBunny = ["datas/BigBuckBunny_TC_400_averaged.csv", 
-                "datas/BigBuckBunny_TC_400_averaged.csv",
-                "datas/BigBuckBunny_TC_400_averaged.csv",
-                "datas/BigBuckBunny_TC_400_averaged.csv"]
+    movies_BickBuckBunny = []
+
+    for num in range(1,17):
+
+        movies_BickBuckBunny.append("brain/BigBuckBunny_TC_400_average_" + str(num) +".csv")
 
     # enter the name of the preprocessed emotion file corresponding to the movie
     emotion_BickBuckBunny = "datas/Emotions_BigBuckBunny.csv"
@@ -140,6 +150,8 @@ def main():
     output_path_BickBuckBunny = "results/Combined_BickBuckBunny.csv"
 
     combine_brain_emotions_per_movie(movies_BickBuckBunny, emotion_BickBuckBunny, output_path_BickBuckBunny)
+
+    print("Bick Buck Bunny done")
 
     ########################################
     # CHATTER
@@ -150,6 +162,10 @@ def main():
     # movie_1_person_1, movie_1_person_2, movie_1_person_4, movie_1_person_4
     movies_Chatter = []
 
+    for num in range(1,20):
+
+        movies_Chatter.append("brain/Chatter_TC_400_average_" + str(num) +".csv")
+
     # enter the name of the preprocessed emotion file corresponding to the movie
     emotion_Chatter = "datas/Emotions_Chatter.csv"
 
@@ -157,6 +173,8 @@ def main():
     output_path_Chatter = "results/Combined_Chatter.csv"
 
     combine_brain_emotions_per_movie(movies_Chatter, emotion_Chatter, output_path_Chatter)
+
+    print("Chatter done")
 
     ########################################
     # FIRST BITE
@@ -167,6 +185,10 @@ def main():
     # movie_1_person_1, movie_1_person_2, movie_1_person_4, movie_1_person_4
     movies_FirstBite = []
 
+    for num in range(1,18):
+
+        movies_FirstBite.append("brain/FirstBite_TC_400_average_" + str(num) +".csv")
+
     # enter the name of the preprocessed emotion file corresponding to the movie
     emotion_FirstBite = "datas/Emotions_FirstBite.csv"
 
@@ -174,6 +196,8 @@ def main():
     output_path_FirstBite = "results/Combined_FirstBite.csv"
 
     combine_brain_emotions_per_movie(movies_FirstBite, emotion_FirstBite, output_path_FirstBite)
+
+    print("First Bite done")
 
     ########################################
     # LESSONS LEARNED
@@ -183,6 +207,9 @@ def main():
     # List has to be in right order:
     # movie_1_person_1, movie_1_person_2, movie_1_person_4, movie_1_person_4
     movies_LessonLearned = []
+    for num in range(1,21):
+
+        movies_LessonLearned.append("brain/LessonLearned_TC_400_average_" + str(num) +".csv")
 
     # enter the name of the preprocessed emotion file corresponding to the movie
     emotion_LessonLearned = "datas/Emotions_LessonLearned.csv"
@@ -192,6 +219,8 @@ def main():
 
     combine_brain_emotions_per_movie(movies_LessonLearned, emotion_LessonLearned, output_path_LessonLearned)
 
+    print("Lesson Learned done")
+
     ########################################
     # PAYLOAD
     ########################################
@@ -200,6 +229,9 @@ def main():
     # List has to be in right order:
     # movie_1_person_1, movie_1_person_2, movie_1_person_4, movie_1_person_4
     movies_Payload = []
+    for num in range(1,19):
+
+        movies_Payload.append("brain/Payload_TC_400_average_" + str(num) +".csv")
 
     # enter the name of the preprocessed emotion file corresponding to the movie
     emotion_Payload = "datas/Emotions_Payload.csv"
@@ -208,6 +240,8 @@ def main():
     output_path_Payload = "results/Combined_Payload.csv"
 
     combine_brain_emotions_per_movie(movies_Payload, emotion_Payload, output_path_Payload)
+
+    print("Payload done")
 
 
     ########################################
@@ -218,6 +252,9 @@ def main():
     # List has to be in right order:
     # movie_1_person_1, movie_1_person_2, movie_1_person_4, movie_1_person_4
     movies_Sintel = []
+    for num in range(1,16):
+
+        movies_Sintel.append("brain/Sintel_TC_400_average_" + str(num) +".csv")
 
     # enter the name of the preprocessed emotion file corresponding to the movie
     emotion_Sintel = "datas/Emotions_Sintel.csv"
@@ -227,6 +264,8 @@ def main():
 
     combine_brain_emotions_per_movie(movies_Sintel, emotion_Sintel, output_path_Sintel)
 
+    print("Sintel done")
+
     ########################################
     # SPACEMAN
     ########################################
@@ -235,6 +274,9 @@ def main():
     # List has to be in right order:
     # movie_1_person_1, movie_1_person_2, movie_1_person_4, movie_1_person_4
     movies_Spaceman = []
+    for num in range(1,20):
+
+        movies_Spaceman.append("brain/Spaceman_TC_400_average_" + str(num) +".csv")
 
     # enter the name of the preprocessed emotion file corresponding to the movie
     emotion_Spaceman = "datas/Emotions_Spaceman.csv"
@@ -244,6 +286,8 @@ def main():
 
     combine_brain_emotions_per_movie(movies_Spaceman, emotion_Spaceman, output_path_Spaceman)
 
+    print("Spaceman done")
+
     ########################################
     # SUPERHERO
     ########################################
@@ -252,6 +296,9 @@ def main():
     # List has to be in right order:
     # movie_1_person_1, movie_1_person_2, movie_1_person_4, movie_1_person_4
     movies_Superhero = []
+    for num in range(1,17):
+
+        movies_Superhero.append("brain/Superhero_TC_400_average_" + str(num) +".csv")
 
     # enter the name of the preprocessed emotion file corresponding to the movie
     emotion_Superhero = "datas/Emotions_Superhero.csv"
@@ -261,6 +308,8 @@ def main():
 
     combine_brain_emotions_per_movie(movies_Superhero, emotion_Superhero, output_path_Superhero)
 
+    print("Superhero done")
+
     ########################################
     # TEARS OF STEEL
     ########################################
@@ -269,6 +318,9 @@ def main():
     # List has to be in right order:
     # movie_1_person_1, movie_1_person_2, movie_1_person_4, movie_1_person_4
     movies_TearsOfSteel = []
+    for num in range(1,18):
+
+        movies_TearsOfSteel.append("brain/TearsOfSteel_TC_400_average_" + str(num) +".csv")
 
     # enter the name of the preprocessed emotion file corresponding to the movie
     emotion_TearsOfSteel = "datas/Emotions_TearsOfSteel.csv"
@@ -277,6 +329,8 @@ def main():
     output_path_TearsOfSteel = "results/Combined_TearsOfSteel.csv"
 
     combine_brain_emotions_per_movie(movies_TearsOfSteel, emotion_TearsOfSteel, output_path_TearsOfSteel)
+
+    print("Tears of Steel done")
 
     
     ########################################
@@ -287,6 +341,9 @@ def main():
     # List has to be in right order:
     # movie_1_person_1, movie_1_person_2, movie_1_person_4, movie_1_person_4
     movies_TheSecretNumber = []
+    for num in range(1,19):
+
+        movies_TheSecretNumber.append("brain/TheSecretNumber_TC_400_average_" + str(num) +".csv")
 
     # enter the name of the preprocessed emotion file corresponding to the movie
     emotion_TheSecretNumber = "datas/Emotions_TheSecretNumber.csv"
@@ -296,6 +353,8 @@ def main():
 
     combine_brain_emotions_per_movie(movies_TheSecretNumber, emotion_TheSecretNumber, output_path_TheSecretNumber)
 
+    print("The Secret Number done")
+
     ########################################
     # TO CLAIRE FROM SUNNY
     ########################################
@@ -304,14 +363,19 @@ def main():
     # List has to be in right order:
     # movie_1_person_1, movie_1_person_2, movie_1_person_4, movie_1_person_4
     movies_ToClaireFromSunny = []
+    for num in range(1,19):
+
+        movies_ToClaireFromSunny.append("brain/ToClaireFromSonny_TC_400_average_" + str(num) +".csv")
 
     # enter the name of the preprocessed emotion file corresponding to the movie
-    emotion_ToClaireFromSunny = "datas/Emotions_ToClaireFromSunny.csv"
+    emotion_ToClaireFromSunny = "datas/Emotions_ToClaireFromSonny.csv"
 
     # enter the output path
     output_path_ToClaireFromSunny = "results/Combined_ToClaireFromSunny.csv"
 
     combine_brain_emotions_per_movie(movies_ToClaireFromSunny, emotion_ToClaireFromSunny, output_path_ToClaireFromSunny)
+
+    print("To Claire from Sonny done")
 
     ########################################
     # YOU AGAIN
@@ -321,6 +385,9 @@ def main():
     # List has to be in right order:
     # movie_1_person_1, movie_1_person_2, movie_1_person_4, movie_1_person_4
     movies_YouAgain = []
+    for num in range(1,19):
+
+        movies_YouAgain.append("brain/YouAgain_TC_400_average_" + str(num) +".csv")
 
     # enter the name of the preprocessed emotion file corresponding to the movie
     emotion_YouAgain = "datas/Emotions_YouAgain.csv"
@@ -329,6 +396,8 @@ def main():
     output_path_YouAgain = "results/Combined_YouAgain.csv"
 
     combine_brain_emotions_per_movie(movies_YouAgain, emotion_YouAgain, output_path_YouAgain)
+
+    print("You Again done")
 
 
     ########################################
@@ -352,7 +421,7 @@ def main():
 
     final_output = "results/Combined_All.csv"
 
-    combine_brain_emotions(list, final_output)
+    combine_brain_emotions(all_movies, final_output)
 
 
 

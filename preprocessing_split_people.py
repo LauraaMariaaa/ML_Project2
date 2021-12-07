@@ -780,11 +780,7 @@ def main():
     final_output_test = "results/Combined_All_Test_90.csv"
     final_output_train = "results/Combined_All_Train_90.csv"
     split_range = 0.9
-    split_people(split_range, final_output_test, final_output_train)
-    final_output_test = "results/Combined_All_Test_60.csv"
-    final_output_train = "results/Combined_All_Train_60.csv"
-    split_range = 0.6
-    split_people(split_range, final_output_test, final_output_train)
+    split_people(split_range, final_output_train, final_output_test)
     
 
 

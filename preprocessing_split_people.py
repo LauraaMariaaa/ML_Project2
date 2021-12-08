@@ -106,7 +106,7 @@ def split_people(split_range, final_output_test, final_output_train):
     # List has to be in right order:
 
     movies_AfterTheRain = []
-    for num in range(1,int(np.floor(split_range*19))):
+    for num in range(1,int(np.floor(split_range*26))):
 
         movies_AfterTheRain.append("brain/AfterTheRain_TC_400_average_" + str(num) +".csv")
 
@@ -127,7 +127,7 @@ def split_people(split_range, final_output_test, final_output_train):
     # List has to be in right order:
     # movie_1_person_1, movie_1_person_2, movie_1_person_4, movie_1_person_4
     movies_BetweenViewings = []
-    for num in range(1,int(np.floor(split_range*20))):
+    for num in range(1,int(np.floor(split_range*26))):
 
         movies_BetweenViewings.append("brain/BetweenViewings_TC_400_average_" + str(num) +".csv")
 
@@ -149,7 +149,7 @@ def split_people(split_range, final_output_test, final_output_train):
     # movie_1_person_1, movie_1_person_2, movie_1_person_4, movie_1_person_4
     movies_BickBuckBunny = []
 
-    for num in range(1,int(np.floor(split_range*17))):
+    for num in range(1,int(np.floor(split_range*23))):
 
         movies_BickBuckBunny.append("brain/BigBuckBunny_TC_400_average_" + str(num) +".csv")
 
@@ -172,7 +172,7 @@ def split_people(split_range, final_output_test, final_output_train):
     # movie_1_person_1, movie_1_person_2, movie_1_person_4, movie_1_person_4
     movies_Chatter = []
 
-    for num in range(1,int(np.floor(split_range*20))):
+    for num in range(1,int(np.floor(split_range*27))):
 
         movies_Chatter.append("brain/Chatter_TC_400_average_" + str(num) +".csv")
 
@@ -195,7 +195,7 @@ def split_people(split_range, final_output_test, final_output_train):
     # movie_1_person_1, movie_1_person_2, movie_1_person_4, movie_1_person_4
     movies_FirstBite = []
 
-    for num in range(1,int(np.floor(split_range*18))):
+    for num in range(1,int(np.floor(split_range*26))):
 
         movies_FirstBite.append("brain/FirstBite_TC_400_average_" + str(num) +".csv")
 
@@ -217,7 +217,7 @@ def split_people(split_range, final_output_test, final_output_train):
     # List has to be in right order:
     # movie_1_person_1, movie_1_person_2, movie_1_person_4, movie_1_person_4
     movies_LessonLearned = []
-    for num in range(1,int(np.floor(split_range*21))):
+    for num in range(1,int(np.floor(split_range*27))):
 
         movies_LessonLearned.append("brain/LessonLearned_TC_400_average_" + str(num) +".csv")
 
@@ -239,7 +239,7 @@ def split_people(split_range, final_output_test, final_output_train):
     # List has to be in right order:
     # movie_1_person_1, movie_1_person_2, movie_1_person_4, movie_1_person_4
     movies_Payload = []
-    for num in range(1,int(np.floor(split_range*19))):
+    for num in range(1,int(np.floor(split_range*27))):
 
         movies_Payload.append("brain/Payload_TC_400_average_" + str(num) +".csv")
 
@@ -262,7 +262,7 @@ def split_people(split_range, final_output_test, final_output_train):
     # List has to be in right order:
     # movie_1_person_1, movie_1_person_2, movie_1_person_4, movie_1_person_4
     movies_Sintel = []
-    for num in range(1,int(np.floor(split_range*16))):
+    for num in range(1,int(np.floor(split_range*25))):
 
         movies_Sintel.append("brain/Sintel_TC_400_average_" + str(num) +".csv")
 
@@ -284,7 +284,7 @@ def split_people(split_range, final_output_test, final_output_train):
     # List has to be in right order:
     # movie_1_person_1, movie_1_person_2, movie_1_person_4, movie_1_person_4
     movies_Spaceman = []
-    for num in range(1,int(np.floor(split_range*20))):
+    for num in range(1,int(np.floor(split_range*27))):
 
         movies_Spaceman.append("brain/Spaceman_TC_400_average_" + str(num) +".csv")
 
@@ -306,7 +306,7 @@ def split_people(split_range, final_output_test, final_output_train):
     # List has to be in right order:
     # movie_1_person_1, movie_1_person_2, movie_1_person_4, movie_1_person_4
     movies_Superhero = []
-    for num in range(1,int(np.floor(split_range*17))):
+    for num in range(1,int(np.floor(split_range*25))):
 
         movies_Superhero.append("brain/Superhero_TC_400_average_" + str(num) +".csv")
 
@@ -328,7 +328,7 @@ def split_people(split_range, final_output_test, final_output_train):
     # List has to be in right order:
     # movie_1_person_1, movie_1_person_2, movie_1_person_4, movie_1_person_4
     movies_TearsOfSteel = []
-    for num in range(1,int(np.floor(split_range*18))):
+    for num in range(1,int(np.floor(split_range*25))):
 
         movies_TearsOfSteel.append("brain/TearsOfSteel_TC_400_average_" + str(num) +".csv")
 
@@ -351,7 +351,7 @@ def split_people(split_range, final_output_test, final_output_train):
     # List has to be in right order:
     # movie_1_person_1, movie_1_person_2, movie_1_person_4, movie_1_person_4
     movies_TheSecretNumber = []
-    for num in range(1,int(np.floor(split_range*19))):
+    for num in range(1,int(np.floor(split_range*26))):
 
         movies_TheSecretNumber.append("brain/TheSecretNumber_TC_400_average_" + str(num) +".csv")
 
@@ -373,7 +373,7 @@ def split_people(split_range, final_output_test, final_output_train):
     # List has to be in right order:
     # movie_1_person_1, movie_1_person_2, movie_1_person_4, movie_1_person_4
     movies_ToClaireFromSunny = []
-    for num in range(1,int(np.floor(split_range*19))):
+    for num in range(1,int(np.floor(split_range*26))):
 
         movies_ToClaireFromSunny.append("brain/ToClaireFromSonny_TC_400_average_" + str(num) +".csv")
 
@@ -395,7 +395,7 @@ def split_people(split_range, final_output_test, final_output_train):
     # List has to be in right order:
     # movie_1_person_1, movie_1_person_2, movie_1_person_4, movie_1_person_4
     movies_YouAgain = []
-    for num in range(1,int(np.floor(split_range*19))):
+    for num in range(1,int(np.floor(split_range*26))):
 
         movies_YouAgain.append("brain/YouAgain_TC_400_average_" + str(num) +".csv")
 
@@ -447,7 +447,7 @@ def split_people(split_range, final_output_test, final_output_train):
     # List has to be in right order:
 
     movies_AfterTheRain = []
-    for num in range(int(np.floor(split_range*19)),19):
+    for num in range(int(np.floor(split_range*26)),26):
 
         movies_AfterTheRain.append("brain/AfterTheRain_TC_400_average_" + str(num) +".csv")
 
@@ -468,7 +468,7 @@ def split_people(split_range, final_output_test, final_output_train):
     # List has to be in right order:
     # movie_1_person_1, movie_1_person_2, movie_1_person_4, movie_1_person_4
     movies_BetweenViewings = []
-    for num in range(int(np.floor(split_range*20)),20):
+    for num in range(int(np.floor(split_range*26)),26):
 
         movies_BetweenViewings.append("brain/BetweenViewings_TC_400_average_" + str(num) +".csv")
 
@@ -490,7 +490,7 @@ def split_people(split_range, final_output_test, final_output_train):
     # movie_1_person_1, movie_1_person_2, movie_1_person_4, movie_1_person_4
     movies_BickBuckBunny = []
 
-    for num in range(int(np.floor(split_range*17)),17):
+    for num in range(int(np.floor(split_range*23)),23):
 
         movies_BickBuckBunny.append("brain/BigBuckBunny_TC_400_average_" + str(num) +".csv")
 
@@ -513,7 +513,7 @@ def split_people(split_range, final_output_test, final_output_train):
     # movie_1_person_1, movie_1_person_2, movie_1_person_4, movie_1_person_4
     movies_Chatter = []
 
-    for num in range(int(np.floor(split_range*20)),20):
+    for num in range(int(np.floor(split_range*27)),27):
 
         movies_Chatter.append("brain/Chatter_TC_400_average_" + str(num) +".csv")
 
@@ -536,7 +536,7 @@ def split_people(split_range, final_output_test, final_output_train):
     # movie_1_person_1, movie_1_person_2, movie_1_person_4, movie_1_person_4
     movies_FirstBite = []
 
-    for num in range(int(np.floor(split_range*18)),18):
+    for num in range(int(np.floor(split_range*26)),26):
 
         movies_FirstBite.append("brain/FirstBite_TC_400_average_" + str(num) +".csv")
 
@@ -558,7 +558,7 @@ def split_people(split_range, final_output_test, final_output_train):
     # List has to be in right order:
     # movie_1_person_1, movie_1_person_2, movie_1_person_4, movie_1_person_4
     movies_LessonLearned = []
-    for num in range(int(np.floor(split_range*21)),21):
+    for num in range(int(np.floor(split_range*27)),27):
 
         movies_LessonLearned.append("brain/LessonLearned_TC_400_average_" + str(num) +".csv")
 
@@ -580,7 +580,7 @@ def split_people(split_range, final_output_test, final_output_train):
     # List has to be in right order:
     # movie_1_person_1, movie_1_person_2, movie_1_person_4, movie_1_person_4
     movies_Payload = []
-    for num in range(int(np.floor(split_range*19)),19):
+    for num in range(int(np.floor(split_range*27)),27):
 
         movies_Payload.append("brain/Payload_TC_400_average_" + str(num) +".csv")
 
@@ -603,7 +603,7 @@ def split_people(split_range, final_output_test, final_output_train):
     # List has to be in right order:
     # movie_1_person_1, movie_1_person_2, movie_1_person_4, movie_1_person_4
     movies_Sintel = []
-    for num in range(int(np.floor(split_range*16)),16):
+    for num in range(int(np.floor(split_range*25)),25):
 
         movies_Sintel.append("brain/Sintel_TC_400_average_" + str(num) +".csv")
 
@@ -625,7 +625,7 @@ def split_people(split_range, final_output_test, final_output_train):
     # List has to be in right order:
     # movie_1_person_1, movie_1_person_2, movie_1_person_4, movie_1_person_4
     movies_Spaceman = []
-    for num in range(int(np.floor(split_range*20)),20):
+    for num in range(int(np.floor(split_range*27)),27):
 
         movies_Spaceman.append("brain/Spaceman_TC_400_average_" + str(num) +".csv")
 
@@ -647,7 +647,7 @@ def split_people(split_range, final_output_test, final_output_train):
     # List has to be in right order:
     # movie_1_person_1, movie_1_person_2, movie_1_person_4, movie_1_person_4
     movies_Superhero = []
-    for num in range(int(np.floor(split_range*17)),17):
+    for num in range(int(np.floor(split_range*25)),25):
 
         movies_Superhero.append("brain/Superhero_TC_400_average_" + str(num) +".csv")
 
@@ -669,7 +669,7 @@ def split_people(split_range, final_output_test, final_output_train):
     # List has to be in right order:
     # movie_1_person_1, movie_1_person_2, movie_1_person_4, movie_1_person_4
     movies_TearsOfSteel = []
-    for num in range(int(np.floor(split_range*18)),18):
+    for num in range(int(np.floor(split_range*25)),25):
 
         movies_TearsOfSteel.append("brain/TearsOfSteel_TC_400_average_" + str(num) +".csv")
 
@@ -692,7 +692,7 @@ def split_people(split_range, final_output_test, final_output_train):
     # List has to be in right order:
     # movie_1_person_1, movie_1_person_2, movie_1_person_4, movie_1_person_4
     movies_TheSecretNumber = []
-    for num in range(int(np.floor(split_range*19)),19):
+    for num in range(int(np.floor(split_range*26)),26):
 
         movies_TheSecretNumber.append("brain/TheSecretNumber_TC_400_average_" + str(num) +".csv")
 
@@ -714,7 +714,7 @@ def split_people(split_range, final_output_test, final_output_train):
     # List has to be in right order:
     # movie_1_person_1, movie_1_person_2, movie_1_person_4, movie_1_person_4
     movies_ToClaireFromSunny = []
-    for num in range(int(np.floor(split_range*19)),19):
+    for num in range(int(np.floor(split_range*26)),26):
 
         movies_ToClaireFromSunny.append("brain/ToClaireFromSonny_TC_400_average_" + str(num) +".csv")
 
@@ -736,7 +736,7 @@ def split_people(split_range, final_output_test, final_output_train):
     # List has to be in right order:
     # movie_1_person_1, movie_1_person_2, movie_1_person_4, movie_1_person_4
     movies_YouAgain = []
-    for num in range(int(np.floor(split_range*19)),19):
+    for num in range(int(np.floor(split_range*26)),26):
 
         movies_YouAgain.append("brain/YouAgain_TC_400_average_" + str(num) +".csv")
 
@@ -777,11 +777,30 @@ def split_people(split_range, final_output_test, final_output_train):
 
 
 def main():
-    final_output_test = "results/Combined_All_Test_90.csv"
-    final_output_train = "results/Combined_All_Train_90.csv"
+    # Split 90 - 10
+    final_output_test = "results/Split_data/Combined_All_Test_90.csv"
+    final_output_train = "results/Split_data/Combined_All_Train_90.csv"
     split_range = 0.9
     split_people(split_range, final_output_train, final_output_test)
+
+
+    # Split 80 - 20
+    final_output_test = "results/Split_data/Combined_All_Test_80.csv"
+    final_output_train = "results/Split_data/Combined_All_Train_80.csv"
+    split_range = 0.8
+    split_people(split_range, final_output_train, final_output_test)
+
+    # Split 70 - 30
+    final_output_test = "results/Split_data/Combined_All_Test_70.csv"
+    final_output_train = "results/Split_data/Combined_All_Train_70.csv"
+    split_range = 0.7
+    split_people(split_range, final_output_train, final_output_test)
     
+    # Split 60 - 40
+    final_output_test = "results/Split_data/Combined_All_Test_60.csv"
+    final_output_train = "results/Split_data/Combined_All_Train_60.csv"
+    split_range = 0.6
+    split_people(split_range, final_output_train, final_output_test)
 
 
 

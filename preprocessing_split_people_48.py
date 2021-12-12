@@ -106,9 +106,9 @@ def split_people(split_range, final_output_test, final_output_train):
     # List has to be in right order:
 
     movies_AfterTheRain = []
-    for num in range(1,int(np.floor(split_range*26))):
+    for num in range(1,int(np.floor(split_range*18))):
 
-        movies_AfterTheRain.append("brain/AfterTheRain_TC_400_average_" + str(num) +".csv")
+        movies_AfterTheRain.append("brain/AfterTheRain_TC_48_average_" + str(num) +".csv")
 
     # enter the name of the preprocessed emotion file corresponding to the movie
     emotion_AfterTheRain = "datas/Emotions_AfterTheRain.csv"
@@ -127,9 +127,9 @@ def split_people(split_range, final_output_test, final_output_train):
     # List has to be in right order:
     # movie_1_person_1, movie_1_person_2, movie_1_person_4, movie_1_person_4
     movies_BetweenViewings = []
-    for num in range(1,int(np.floor(split_range*26))):
+    for num in range(1,int(np.floor(split_range*18))):
 
-        movies_BetweenViewings.append("brain/BetweenViewings_TC_400_average_" + str(num) +".csv")
+        movies_BetweenViewings.append("brain/BetweenViewings_TC_48_average_" + str(num) +".csv")
 
     # enter the name of the preprocessed emotion file corresponding to the movie
     emotion_BetweenViewings = "datas/Emotions_BetweenViewings.csv"
@@ -149,9 +149,9 @@ def split_people(split_range, final_output_test, final_output_train):
     # movie_1_person_1, movie_1_person_2, movie_1_person_4, movie_1_person_4
     movies_BickBuckBunny = []
 
-    for num in range(1,int(np.floor(split_range*24))):
+    for num in range(1,int(np.floor(split_range*17))):
 
-        movies_BickBuckBunny.append("brain/BigBuckBunny_TC_400_average_" + str(num) +".csv")
+        movies_BickBuckBunny.append("brain/BigBuckBunny_TC_48_average_" + str(num) +".csv")
 
     # enter the name of the preprocessed emotion file corresponding to the movie
     emotion_BickBuckBunny = "datas/Emotions_BigBuckBunny.csv"
@@ -172,9 +172,9 @@ def split_people(split_range, final_output_test, final_output_train):
     # movie_1_person_1, movie_1_person_2, movie_1_person_4, movie_1_person_4
     movies_Chatter = []
 
-    for num in range(1,int(np.floor(split_range*27))):
+    for num in range(1,int(np.floor(split_range*18))):
 
-        movies_Chatter.append("brain/Chatter_TC_400_average_" + str(num) +".csv")
+        movies_Chatter.append("brain/Chatter_TC_48_average_" + str(num) +".csv")
 
     # enter the name of the preprocessed emotion file corresponding to the movie
     emotion_Chatter = "datas/Emotions_Chatter.csv"
@@ -195,9 +195,9 @@ def split_people(split_range, final_output_test, final_output_train):
     # movie_1_person_1, movie_1_person_2, movie_1_person_4, movie_1_person_4
     movies_FirstBite = []
 
-    for num in range(1,int(np.floor(split_range*26))):
+    for num in range(1,int(np.floor(split_range*17))):
 
-        movies_FirstBite.append("brain/FirstBite_TC_400_average_" + str(num) +".csv")
+        movies_FirstBite.append("brain/FirstBite_TC_48_average_" + str(num) +".csv")
 
     # enter the name of the preprocessed emotion file corresponding to the movie
     emotion_FirstBite = "datas/Emotions_FirstBite.csv"
@@ -217,9 +217,9 @@ def split_people(split_range, final_output_test, final_output_train):
     # List has to be in right order:
     # movie_1_person_1, movie_1_person_2, movie_1_person_4, movie_1_person_4
     movies_LessonLearned = []
-    for num in range(1,int(np.floor(split_range*27))):
+    for num in range(1,int(np.floor(split_range*17))):
 
-        movies_LessonLearned.append("brain/LessonLearned_TC_400_average_" + str(num) +".csv")
+        movies_LessonLearned.append("brain/LessonLearned_TC_48_average_" + str(num) +".csv")
 
     # enter the name of the preprocessed emotion file corresponding to the movie
     emotion_LessonLearned = "datas/Emotions_LessonLearned.csv"
@@ -239,9 +239,9 @@ def split_people(split_range, final_output_test, final_output_train):
     # List has to be in right order:
     # movie_1_person_1, movie_1_person_2, movie_1_person_4, movie_1_person_4
     movies_Payload = []
-    for num in range(1,int(np.floor(split_range*27))):
+    for num in range(1,int(np.floor(split_range*18))):
 
-        movies_Payload.append("brain/Payload_TC_400_average_" + str(num) +".csv")
+        movies_Payload.append("brain/Payload_TC_48_average_" + str(num) +".csv")
 
     # enter the name of the preprocessed emotion file corresponding to the movie
     emotion_Payload = "datas/Emotions_Payload.csv"
@@ -262,9 +262,9 @@ def split_people(split_range, final_output_test, final_output_train):
     # List has to be in right order:
     # movie_1_person_1, movie_1_person_2, movie_1_person_4, movie_1_person_4
     movies_Sintel = []
-    for num in range(1,int(np.floor(split_range*25))):
+    for num in range(1,int(np.floor(split_range*18))):
 
-        movies_Sintel.append("brain/Sintel_TC_400_average_" + str(num) +".csv")
+        movies_Sintel.append("brain/Sintel_TC_48_average_" + str(num) +".csv")
 
     # enter the name of the preprocessed emotion file corresponding to the movie
     emotion_Sintel = "datas/Emotions_Sintel.csv"
@@ -284,9 +284,9 @@ def split_people(split_range, final_output_test, final_output_train):
     # List has to be in right order:
     # movie_1_person_1, movie_1_person_2, movie_1_person_4, movie_1_person_4
     movies_Spaceman = []
-    for num in range(1,int(np.floor(split_range*27))):
+    for num in range(1,int(np.floor(split_range*18))):
 
-        movies_Spaceman.append("brain/Spaceman_TC_400_average_" + str(num) +".csv")
+        movies_Spaceman.append("brain/Spaceman_TC_48_average_" + str(num) +".csv")
 
     # enter the name of the preprocessed emotion file corresponding to the movie
     emotion_Spaceman = "datas/Emotions_Spaceman.csv"
@@ -306,9 +306,9 @@ def split_people(split_range, final_output_test, final_output_train):
     # List has to be in right order:
     # movie_1_person_1, movie_1_person_2, movie_1_person_4, movie_1_person_4
     movies_Superhero = []
-    for num in range(1,int(np.floor(split_range*25))):
+    for num in range(1,int(np.floor(split_range*17))):
 
-        movies_Superhero.append("brain/Superhero_TC_400_average_" + str(num) +".csv")
+        movies_Superhero.append("brain/Superhero_TC_48_average_" + str(num) +".csv")
 
     # enter the name of the preprocessed emotion file corresponding to the movie
     emotion_Superhero = "datas/Emotions_Superhero.csv"
@@ -328,9 +328,9 @@ def split_people(split_range, final_output_test, final_output_train):
     # List has to be in right order:
     # movie_1_person_1, movie_1_person_2, movie_1_person_4, movie_1_person_4
     movies_TearsOfSteel = []
-    for num in range(1,int(np.floor(split_range*25))):
+    for num in range(1,int(np.floor(split_range*17))):
 
-        movies_TearsOfSteel.append("brain/TearsOfSteel_TC_400_average_" + str(num) +".csv")
+        movies_TearsOfSteel.append("brain/TearsOfSteel_TC_48_average_" + str(num) +".csv")
 
     # enter the name of the preprocessed emotion file corresponding to the movie
     emotion_TearsOfSteel = "datas/Emotions_TearsOfSteel.csv"
@@ -351,9 +351,9 @@ def split_people(split_range, final_output_test, final_output_train):
     # List has to be in right order:
     # movie_1_person_1, movie_1_person_2, movie_1_person_4, movie_1_person_4
     movies_TheSecretNumber = []
-    for num in range(1,int(np.floor(split_range*26))):
+    for num in range(1,int(np.floor(split_range*17))):
 
-        movies_TheSecretNumber.append("brain/TheSecretNumber_TC_400_average_" + str(num) +".csv")
+        movies_TheSecretNumber.append("brain/TheSecretNumber_TC_48_average_" + str(num) +".csv")
 
     # enter the name of the preprocessed emotion file corresponding to the movie
     emotion_TheSecretNumber = "datas/Emotions_TheSecretNumber.csv"
@@ -373,9 +373,9 @@ def split_people(split_range, final_output_test, final_output_train):
     # List has to be in right order:
     # movie_1_person_1, movie_1_person_2, movie_1_person_4, movie_1_person_4
     movies_ToClaireFromSunny = []
-    for num in range(1,int(np.floor(split_range*26))):
+    for num in range(1,int(np.floor(split_range*18))):
 
-        movies_ToClaireFromSunny.append("brain/ToClaireFromSonny_TC_400_average_" + str(num) +".csv")
+        movies_ToClaireFromSunny.append("brain/ToClaireFromSonny_TC_48_average_" + str(num) +".csv")
 
     # enter the name of the preprocessed emotion file corresponding to the movie
     emotion_ToClaireFromSunny = "datas/Emotions_ToClaireFromSonny.csv"
@@ -395,9 +395,9 @@ def split_people(split_range, final_output_test, final_output_train):
     # List has to be in right order:
     # movie_1_person_1, movie_1_person_2, movie_1_person_4, movie_1_person_4
     movies_YouAgain = []
-    for num in range(1,int(np.floor(split_range*26))):
+    for num in range(1,int(np.floor(split_range*18))):
 
-        movies_YouAgain.append("brain/YouAgain_TC_400_average_" + str(num) +".csv")
+        movies_YouAgain.append("brain/YouAgain_TC_48_average_" + str(num) +".csv")
 
     # enter the name of the preprocessed emotion file corresponding to the movie
     emotion_YouAgain = "datas/Emotions_YouAgain.csv"
@@ -447,9 +447,9 @@ def split_people(split_range, final_output_test, final_output_train):
     # List has to be in right order:
 
     movies_AfterTheRain = []
-    for num in range(int(np.floor(split_range*26)),26):
+    for num in range(int(np.floor(split_range*18)),18):
 
-        movies_AfterTheRain.append("brain/AfterTheRain_TC_400_average_" + str(num) +".csv")
+        movies_AfterTheRain.append("brain/AfterTheRain_TC_48_average_" + str(num) +".csv")
 
     # enter the name of the preprocessed emotion file corresponding to the movie
     emotion_AfterTheRain = "datas/Emotions_AfterTheRain.csv"
@@ -468,9 +468,9 @@ def split_people(split_range, final_output_test, final_output_train):
     # List has to be in right order:
     # movie_1_person_1, movie_1_person_2, movie_1_person_4, movie_1_person_4
     movies_BetweenViewings = []
-    for num in range(int(np.floor(split_range*26)),26):
+    for num in range(int(np.floor(split_range*18)),18):
 
-        movies_BetweenViewings.append("brain/BetweenViewings_TC_400_average_" + str(num) +".csv")
+        movies_BetweenViewings.append("brain/BetweenViewings_TC_48_average_" + str(num) +".csv")
 
     # enter the name of the preprocessed emotion file corresponding to the movie
     emotion_BetweenViewings = "datas/Emotions_BetweenViewings.csv"
@@ -490,9 +490,9 @@ def split_people(split_range, final_output_test, final_output_train):
     # movie_1_person_1, movie_1_person_2, movie_1_person_4, movie_1_person_4
     movies_BickBuckBunny = []
 
-    for num in range(int(np.floor(split_range*24)),24):
+    for num in range(int(np.floor(split_range*17)),17):
 
-        movies_BickBuckBunny.append("brain/BigBuckBunny_TC_400_average_" + str(num) +".csv")
+        movies_BickBuckBunny.append("brain/BigBuckBunny_TC_48_average_" + str(num) +".csv")
 
     # enter the name of the preprocessed emotion file corresponding to the movie
     emotion_BickBuckBunny = "datas/Emotions_BigBuckBunny.csv"
@@ -513,9 +513,9 @@ def split_people(split_range, final_output_test, final_output_train):
     # movie_1_person_1, movie_1_person_2, movie_1_person_4, movie_1_person_4
     movies_Chatter = []
 
-    for num in range(int(np.floor(split_range*27)),27):
+    for num in range(int(np.floor(split_range*18)),18):
 
-        movies_Chatter.append("brain/Chatter_TC_400_average_" + str(num) +".csv")
+        movies_Chatter.append("brain/Chatter_TC_48_average_" + str(num) +".csv")
 
     # enter the name of the preprocessed emotion file corresponding to the movie
     emotion_Chatter = "datas/Emotions_Chatter.csv"
@@ -536,9 +536,9 @@ def split_people(split_range, final_output_test, final_output_train):
     # movie_1_person_1, movie_1_person_2, movie_1_person_4, movie_1_person_4
     movies_FirstBite = []
 
-    for num in range(int(np.floor(split_range*26)),26):
+    for num in range(int(np.floor(split_range*17)),17):
 
-        movies_FirstBite.append("brain/FirstBite_TC_400_average_" + str(num) +".csv")
+        movies_FirstBite.append("brain/FirstBite_TC_48_average_" + str(num) +".csv")
 
     # enter the name of the preprocessed emotion file corresponding to the movie
     emotion_FirstBite = "datas/Emotions_FirstBite.csv"
@@ -558,9 +558,9 @@ def split_people(split_range, final_output_test, final_output_train):
     # List has to be in right order:
     # movie_1_person_1, movie_1_person_2, movie_1_person_4, movie_1_person_4
     movies_LessonLearned = []
-    for num in range(int(np.floor(split_range*27)),27):
+    for num in range(int(np.floor(split_range*17)),17):
 
-        movies_LessonLearned.append("brain/LessonLearned_TC_400_average_" + str(num) +".csv")
+        movies_LessonLearned.append("brain/LessonLearned_TC_48_average_" + str(num) +".csv")
 
     # enter the name of the preprocessed emotion file corresponding to the movie
     emotion_LessonLearned = "datas/Emotions_LessonLearned.csv"
@@ -580,9 +580,9 @@ def split_people(split_range, final_output_test, final_output_train):
     # List has to be in right order:
     # movie_1_person_1, movie_1_person_2, movie_1_person_4, movie_1_person_4
     movies_Payload = []
-    for num in range(int(np.floor(split_range*27)),27):
+    for num in range(int(np.floor(split_range*18)),18):
 
-        movies_Payload.append("brain/Payload_TC_400_average_" + str(num) +".csv")
+        movies_Payload.append("brain/Payload_TC_48_average_" + str(num) +".csv")
 
     # enter the name of the preprocessed emotion file corresponding to the movie
     emotion_Payload = "datas/Emotions_Payload.csv"
@@ -603,9 +603,9 @@ def split_people(split_range, final_output_test, final_output_train):
     # List has to be in right order:
     # movie_1_person_1, movie_1_person_2, movie_1_person_4, movie_1_person_4
     movies_Sintel = []
-    for num in range(int(np.floor(split_range*25)),25):
+    for num in range(int(np.floor(split_range*18)),18):
 
-        movies_Sintel.append("brain/Sintel_TC_400_average_" + str(num) +".csv")
+        movies_Sintel.append("brain/Sintel_TC_48_average_" + str(num) +".csv")
 
     # enter the name of the preprocessed emotion file corresponding to the movie
     emotion_Sintel = "datas/Emotions_Sintel.csv"
@@ -625,9 +625,9 @@ def split_people(split_range, final_output_test, final_output_train):
     # List has to be in right order:
     # movie_1_person_1, movie_1_person_2, movie_1_person_4, movie_1_person_4
     movies_Spaceman = []
-    for num in range(int(np.floor(split_range*27)),27):
+    for num in range(int(np.floor(split_range*18)),18):
 
-        movies_Spaceman.append("brain/Spaceman_TC_400_average_" + str(num) +".csv")
+        movies_Spaceman.append("brain/Spaceman_TC_48_average_" + str(num) +".csv")
 
     # enter the name of the preprocessed emotion file corresponding to the movie
     emotion_Spaceman = "datas/Emotions_Spaceman.csv"
@@ -647,9 +647,9 @@ def split_people(split_range, final_output_test, final_output_train):
     # List has to be in right order:
     # movie_1_person_1, movie_1_person_2, movie_1_person_4, movie_1_person_4
     movies_Superhero = []
-    for num in range(int(np.floor(split_range*25)),25):
+    for num in range(int(np.floor(split_range*17)),17):
 
-        movies_Superhero.append("brain/Superhero_TC_400_average_" + str(num) +".csv")
+        movies_Superhero.append("brain/Superhero_TC_48_average_" + str(num) +".csv")
 
     # enter the name of the preprocessed emotion file corresponding to the movie
     emotion_Superhero = "datas/Emotions_Superhero.csv"
@@ -669,9 +669,9 @@ def split_people(split_range, final_output_test, final_output_train):
     # List has to be in right order:
     # movie_1_person_1, movie_1_person_2, movie_1_person_4, movie_1_person_4
     movies_TearsOfSteel = []
-    for num in range(int(np.floor(split_range*25)),25):
+    for num in range(int(np.floor(split_range*17)),17):
 
-        movies_TearsOfSteel.append("brain/TearsOfSteel_TC_400_average_" + str(num) +".csv")
+        movies_TearsOfSteel.append("brain/TearsOfSteel_TC_48_average_" + str(num) +".csv")
 
     # enter the name of the preprocessed emotion file corresponding to the movie
     emotion_TearsOfSteel = "datas/Emotions_TearsOfSteel.csv"
@@ -692,9 +692,9 @@ def split_people(split_range, final_output_test, final_output_train):
     # List has to be in right order:
     # movie_1_person_1, movie_1_person_2, movie_1_person_4, movie_1_person_4
     movies_TheSecretNumber = []
-    for num in range(int(np.floor(split_range*26)),26):
+    for num in range(int(np.floor(split_range*17)),17):
 
-        movies_TheSecretNumber.append("brain/TheSecretNumber_TC_400_average_" + str(num) +".csv")
+        movies_TheSecretNumber.append("brain/TheSecretNumber_TC_48_average_" + str(num) +".csv")
 
     # enter the name of the preprocessed emotion file corresponding to the movie
     emotion_TheSecretNumber = "datas/Emotions_TheSecretNumber.csv"
@@ -714,9 +714,9 @@ def split_people(split_range, final_output_test, final_output_train):
     # List has to be in right order:
     # movie_1_person_1, movie_1_person_2, movie_1_person_4, movie_1_person_4
     movies_ToClaireFromSunny = []
-    for num in range(int(np.floor(split_range*26)),26):
+    for num in range(int(np.floor(split_range*18)),18):
 
-        movies_ToClaireFromSunny.append("brain/ToClaireFromSonny_TC_400_average_" + str(num) +".csv")
+        movies_ToClaireFromSunny.append("brain/ToClaireFromSonny_TC_48_average_" + str(num) +".csv")
 
     # enter the name of the preprocessed emotion file corresponding to the movie
     emotion_ToClaireFromSunny = "datas/Emotions_ToClaireFromSonny.csv"
@@ -736,9 +736,9 @@ def split_people(split_range, final_output_test, final_output_train):
     # List has to be in right order:
     # movie_1_person_1, movie_1_person_2, movie_1_person_4, movie_1_person_4
     movies_YouAgain = []
-    for num in range(int(np.floor(split_range*26)),26):
+    for num in range(int(np.floor(split_range*18)),18):
 
-        movies_YouAgain.append("brain/YouAgain_TC_400_average_" + str(num) +".csv")
+        movies_YouAgain.append("brain/YouAgain_TC_48_average_" + str(num) +".csv")
 
     # enter the name of the preprocessed emotion file corresponding to the movie
     emotion_YouAgain = "datas/Emotions_YouAgain.csv"

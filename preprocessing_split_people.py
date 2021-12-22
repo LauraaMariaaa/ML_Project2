@@ -149,7 +149,7 @@ def split_people(split_range, final_output_test, final_output_train):
     # movie_1_person_1, movie_1_person_2, movie_1_person_4, movie_1_person_4
     movies_BickBuckBunny = []
 
-    for num in range(1,int(np.floor(split_range*24))):
+    for num in range(1,int(np.floor(split_range*23))):
 
         movies_BickBuckBunny.append("brain/BigBuckBunny_TC_400_average_" + str(num) +".csv")
 
@@ -490,7 +490,7 @@ def split_people(split_range, final_output_test, final_output_train):
     # movie_1_person_1, movie_1_person_2, movie_1_person_4, movie_1_person_4
     movies_BickBuckBunny = []
 
-    for num in range(int(np.floor(split_range*24)),24):
+    for num in range(int(np.floor(split_range*23)),23):
 
         movies_BickBuckBunny.append("brain/BigBuckBunny_TC_400_average_" + str(num) +".csv")
 
